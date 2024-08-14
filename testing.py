@@ -1,5 +1,5 @@
-x = 10
-if x == 2:
-    print("It is 2")
+x = int(input('enter a number'))
+if(x & 1 == 0):
+    print("It is even")
 else:
-    print("It is 10")
+    print("It is odd")
